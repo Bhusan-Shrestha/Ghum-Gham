@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghum Gham</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/GhumGham.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#Home"><img src="image/GGLOGO.png" alt="Logo" width="50px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Offers">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Reviews">Reviews</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="Home">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        class="d-block w-100" alt="temple">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Temple</h1>
+                        <p>Nepalese temples is the for the religious visit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/Mountains.jpg" class="d-block w-100" alt="temple">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Himalayans ranges</h1>
+                        <p>Nepals Himalayans ranges is the best for the Trekking.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/Nepal.jpg" class="d-block w-100" alt="Nepal">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>World tour</h1>
+                        <p>We provide the best world tour for the Holidays.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Temple</h1>
+            <h1>Himalayans Rangs</h1>
+            <h1>World Tour</h1>
+            <p>We as travel angecy hope to provide the best holidays for the clients.</p>
+        </div>
+    </section>
+    <!-- Holiday Search Section -->
+    <section class="holiday-search">
+        <div class="search-header">
+            <h2>Find Your <span>HOLIDAYS</span></h2>
+        </div>
+        <form class="search-form">
+            <div class="form-group">
+                <label for="where">WHERE</label>
+                <input type="search" id="where" placeholder="Destination" />
+            </div>
+            <div class="form-group">
+                <label for="when">WHEN</label>
+                <input type="date" id="when" placeholder="Select date" />
+            </div>
+            <button type="button" class="btn btn-primary">Search</button>
+        </form>
+    </section>
+
+    <!-- Holidays -->
+    <section class="special-offers" id="Offers">
+        <h2>SPECIAL OFFERS</h2>
+        <p>Best 2025 packages where people love to stay!</p>
+        <div class="offers-container">
+            <div class="offer-item">
+                <img src="https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="beach" width="400px">
+                <details>
+                    <summary>
+                        <H1>Beaches</H1>
+                    </summary>
+                    <p>
+                    <ol>
+                        <li>Proper advice is given to selecting beaches with lifeguards.</li>
+                        <li>Don't swim alone.</li>
+                        <li>Dispose throw trash,pet waste and other waste properly.</li>
+                    </ol>
+                    </p>
+                </details>
+            </div>
+            <div class="offer-item">
+                <img src="https://images.pexels.com/photos/67517/pexels-photo-67517.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="mountains" width="400px">
+                <details>
+                    <summary>
+                        <H1>Mountains</H1>
+                    </summary>
+                    <p>
+                    <ol>
+                        <li>Proper advice is given to selecting the right tour.</li>
+                        <li>Provides techinical and physical traning.</li>
+                        <li>Dispose throw trash,pet waste and other waste properly.</li>
+                    </ol>
+                    </p>
+                </details>
+            </div>
+            <div class="offer-item">
+                <img src="https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="cities" width="400px">
+                <details>
+                    <summary>
+                        <H1>Cities</H1>
+                    </summary>
+                    <p>
+                    <ol>
+                        <li>Before the tour know about the cities rules and regulation.</li>
+                        <li>Local Knowledge about cities routes, weather and climates.</li>
+                        <li>Dispose throw trash,pet waste and other waste properly.</li>
+                    </ol>
+                    </p>
+                </details>
+            </div>
+    </section>
+
+    <section class="special-offers" id="Services">
+        <h2>Services</h2>
+        <p>Our services is the best among any onther agency!</p>
+        <div class="offers-container">
+            <div class="offer-item">
+                <img src="https://images.unsplash.com/photo-1525396524423-64f7b55f5b33?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZsaWdodHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Flight" width="400px">
+                <h2>Flight Booking</h2>
+            </div>
+            <div class="offer-item">
+                <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8fDA%3D"
+                    alt="Hotel" width="400px" height="130px">
+                <h2>Hotel Booking</h2>
+            </div>
+            <div class="offer-item">
+                <img src="https://img.freepik.com/free-vector/tourists-flight-travel-infographics-with-world-map-landmarks-icons_1284-52994.jpg?ga=GA1.1.1035922946.1740287954&semt=ais_hybrid"
+                    alt="Tour" width="350px" height="130px">
+                <h2>Tour Booking</h2>
+            </div>
+    </section>
+    <section id="Book Your Trip Now!">
+        <div>
+            <button type="button" class="btn btn-primary">Book Your Trip Now!</button>
+        </div>
+    </section>
+    <!-- Clients Reviews -->
+    <section id="Reviews">
+        <section class="happy-clients">
+            <h2>HAPPY CLIENTS</h2>
+            <p>What customers say about us and why they love our services!</p>
+            <div class="clients-container">
+                <div class="client-item">
+                    <p>
+                        I really love this Travel Agency. This agency provides the best
+                        traveling destination. I
+                        really love the places, and the services are top-notch.
+                    </p>
+                    <strong>Ayuscal Sedhai</strong>
+                    <span>Nepal</span>
+                </div>
+                <div class="client-item">
+                    <p>
+                        Wow, the Himalayans destinations is the best. I
+                        love these destinations and suggest them to everyone.
+                    </p>
+                    <strong>Dhiraj Giree</strong>
+                    <span>Nepal</span>
+                </div>
+                <div class="client-item">
+                    <p>
+                        All the packages are good, but the best is Beaches. Everyone will
+                        truly love it, no doubt about it.
+                    </p>
+                    <strong>Krishna Khatri</strong>
+                    <span>Nepal</span>
+                </div>
+                <div class="client-item">
+                    <p>
+                        I really think the Cities are the best. I've taken the package and loved it.
+                    </p>
+                    <strong>Bhusan Shrestha</strong>
+                    <span>Nepal</span>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="Contacts">
+        <section class="happy-clients">
+            <div class="clients-container">
+                <div class="client-item">
+                    <strong>Help</strong>
+                    <p>
+                        <br>
+                        Terms and conditions
+                        <br>
+                        Privacy and Policy
+                        <br>
+                        careers
+                        <br>
+                        Online Services
+                        <br>
+                        Community Rules
+
+                    </p>
+                </div>
+                <div class="client-item">
+                    <strong>About us</strong>
+                    <p>
+                        Ghum Gham travel agency private Company, Putalisadak established in 2025. We are the one of the
+                        top travel agency for the holidays. We aim for the best experience and fun for the holidays for
+                        our clients.
+                    </p>
+                </div>
+                <div class="client-item">
+                    <strong>Contact Us</strong>
+                    <p>
+                        <i class="fa-solid fa-phone fa-2xl"></i>
+                        01-1234567 | +977-0123456789
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope fa-2xl"></i>
+                        ghumgham@gmail.com
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-location-dot fa-2xl"></i>
+                        Putalisadak kathmandu
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-calendar-days fa-2xl"></i>
+                        8 AM - 8 PM
+                    </p>
+                    <p>
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">Copyright &copy; 2025 Ghum Gham Travel Agency Private company. All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
